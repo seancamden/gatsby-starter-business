@@ -42,17 +42,9 @@ const NavBar = ({toggleNavbar, isActive}) => (
             <Link className='navbar-item' to='/blog'>
                             Blog
             </Link>
-            <div className='navbar-item'>
-              <div className='field is-grouped'>
-                <p className='control'>
-                  <Link
-                    className='button is-primary is-outlined'
-                    to='/contact'>
-                            Contact Us
-                  </Link>
-                </p>
-              </div>
-            </div>
+            <Link className='navbar-item' to='/contact'>
+                            Contact
+            </Link>
           </div>
         </div>
       </nav>
