@@ -1,6 +1,7 @@
 import React from 'react'
 import {Link, graphql, StaticQuery} from 'gatsby'
 import SearchBox from '../SearchBox'
+import ShareTheGalley from '../../components/ShareTheGalley'
 import logo from '../../assets/img/the-galley-mermaid-logo.png';
 //console.log(logo)
 
@@ -44,6 +45,7 @@ const NavBar = ({toggleNavbar, isActive}) => (
             <Link className='navbar-item' to='/contact'>
                             Contact
             </Link>
+            <ShareTheGalley />
           </div>
         </div>
       </nav>
